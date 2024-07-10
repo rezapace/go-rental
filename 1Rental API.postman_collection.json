@@ -1,0 +1,4401 @@
+{
+	"info": {
+		"_postman_id": "de2fe80c-c640-40c3-b88f-5077c06a1e14",
+		"name": "Rental API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26142588"
+	},
+	"item": [
+		{
+			"name": "Halama Public",
+			"item": [
+				{
+					"name": "Login",
+					"item": [
+						{
+							"name": "Login Admin",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"email\": \"frank@example.com\",\n    \"password\": \"password\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/login",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"login"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Login",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"email\": \"user@example.com\",\n    \"password\": \"password\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{URL}}/login",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"login"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 03 Jun 2024 22:22:34 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "204"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"access_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsIm5hbWUiOiIiLCJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJyb2xlIjoiU2V3YSIsImV4cCI6MTcxNzQ1Mzk1NH0.w22YWH_n8NvcsvWeDnYNUf8EI5QoajGDsMbN5kVzzVk\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Login Sewa",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"email\": \"frank@example.com\",\n    \"password\": \"password\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/login",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"login"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Login",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"email\": \"user@example.com\",\n    \"password\": \"password\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{URL}}/login",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"login"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 03 Jun 2024 22:22:34 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "204"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"access_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsIm5hbWUiOiIiLCJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJyb2xlIjoiU2V3YSIsImV4cCI6MTcxNzQ1Mzk1NH0.w22YWH_n8NvcsvWeDnYNUf8EI5QoajGDsMbN5kVzzVk\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Login Penyewa",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"email\": \"frank@example.com\",\n    \"password\": \"password\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/login",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"login"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Login",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"email\": \"user@example.com\",\n    \"password\": \"password\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{URL}}/login",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"login"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 03 Jun 2024 22:22:34 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "204"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"access_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsIm5hbWUiOiIiLCJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJyb2xlIjoiU2V3YSIsImV4cCI6MTcxNzQ1Mzk1NH0.w22YWH_n8NvcsvWeDnYNUf8EI5QoajGDsMbN5kVzzVk\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"user@example.com\",\n    \"password\": \"password\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/login",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"email\": \"user@example.com\",\n    \"password\": \"password\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/login",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 03 Jun 2024 22:22:34 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "204"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"access_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsIm5hbWUiOiIiLCJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJyb2xlIjoiU2V3YSIsImV4cCI6MTcxNzQ1Mzk1NH0.w22YWH_n8NvcsvWeDnYNUf8EI5QoajGDsMbN5kVzzVk\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"usaaaaer@example.com\",\n    \"password\": \"password\",\n    \"roles\": \"Sewa\",\n    \"number\": \"123675678901\"\n}"
+						},
+						"url": {
+							"raw": "{{URL}}/register",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Register",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"email\": \"user@example.com\",\n    \"password\": \"password\",\n    \"roles\": \"Sewa\",\n    \"number\": \"12345678901\"\n}"
+								},
+								"url": {
+									"raw": "{{URL}}/register",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"register"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 03 Jun 2024 22:19:19 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "247"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"access_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsIm5hbWUiOiIiLCJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJyb2xlIjoiU2V3YSIsImV4cCI6MTcxNzQ1Mzc1OX0.-ircWTnMLIc70yIFwKEpLW7FYmrdOr83-CmIv7RDXa8\",\n    \"message\": \"User registration successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Get All Produk",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{Token-Sewa}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/produk",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"produk"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get All Produk",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/produk",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"produk"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 03 Jun 2024 22:27:05 GMT"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name_produk\": \"Product1\",\n            \"image\": \"image1.jpg\",\n            \"license_plate\": \"ABC123\",\n            \"price_perday\": 0,\n            \"stock\": 10,\n            \"description\": \"Description of Product1\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 2,\n            \"name_produk\": \"Product2\",\n            \"image\": \"image2.jpg\",\n            \"license_plate\": \"DEF456\",\n            \"price_perday\": 0,\n            \"stock\": 8,\n            \"description\": \"Description of Product2\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 3,\n            \"name_produk\": \"Product3\",\n            \"image\": \"image3.jpg\",\n            \"license_plate\": \"GHI789\",\n            \"price_perday\": 0,\n            \"stock\": 5,\n            \"description\": \"Description of Product3\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 4,\n            \"name_produk\": \"Product4\",\n            \"image\": \"image4.jpg\",\n            \"license_plate\": \"JKL012\",\n            \"price_perday\": 0,\n            \"stock\": 12,\n            \"description\": \"Description of Product4\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 5,\n            \"name_produk\": \"Product5\",\n            \"image\": \"image5.jpg\",\n            \"license_plate\": \"MNO345\",\n            \"price_perday\": 0,\n            \"stock\": 6,\n            \"description\": \"Description of Product5\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 6,\n            \"name_produk\": \"Product6\",\n            \"image\": \"image6.jpg\",\n            \"license_plate\": \"PQR678\",\n            \"price_perday\": 0,\n            \"stock\": 7,\n            \"description\": \"Description of Product6\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 7,\n            \"name_produk\": \"Product7\",\n            \"image\": \"image7.jpg\",\n            \"license_plate\": \"STU901\",\n            \"price_perday\": 0,\n            \"stock\": 9,\n            \"description\": \"Description of Product7\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 8,\n            \"name_produk\": \"Product8\",\n            \"image\": \"image8.jpg\",\n            \"license_plate\": \"VWX234\",\n            \"price_perday\": 0,\n            \"stock\": 4,\n            \"description\": \"Description of Product8\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 9,\n            \"name_produk\": \"Product9\",\n            \"image\": \"image9.jpg\",\n            \"license_plate\": \"YZA567\",\n            \"price_perday\": 0,\n            \"stock\": 3,\n            \"description\": \"Description of Product9\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 10,\n            \"name_produk\": \"Product10\",\n            \"image\": \"image10.jpg\",\n            \"license_plate\": \"BCD890\",\n            \"price_perday\": 0,\n            \"stock\": 2,\n            \"description\": \"Description of Product10\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 11,\n            \"name_produk\": \"Product11\",\n            \"image\": \"image11.jpg\",\n            \"license_plate\": \"CDE123\",\n            \"price_perday\": 0,\n            \"stock\": 11,\n            \"description\": \"Description of Product11\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 12,\n            \"name_produk\": \"Product12\",\n            \"image\": \"image12.jpg\",\n            \"license_plate\": \"EFG456\",\n            \"price_perday\": 0,\n            \"stock\": 1,\n            \"description\": \"Description of Product12\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 13,\n            \"name_produk\": \"Product13\",\n            \"image\": \"image13.jpg\",\n            \"license_plate\": \"FGH789\",\n            \"price_perday\": 0,\n            \"stock\": 0,\n            \"description\": \"Description of Product13\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 14,\n            \"name_produk\": \"Product14\",\n            \"image\": \"image14.jpg\",\n            \"license_plate\": \"GHI012\",\n            \"price_perday\": 0,\n            \"stock\": 15,\n            \"description\": \"Description of Product14\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 15,\n            \"name_produk\": \"Product15\",\n            \"image\": \"image15.jpg\",\n            \"license_plate\": \"HIJ345\",\n            \"price_perday\": 0,\n            \"stock\": 14,\n            \"description\": \"Description of Product15\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 16,\n            \"name_produk\": \"Product16\",\n            \"image\": \"image16.jpg\",\n            \"license_plate\": \"IJK678\",\n            \"price_perday\": 0,\n            \"stock\": 13,\n            \"description\": \"Description of Product16\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 17,\n            \"name_produk\": \"Product17\",\n            \"image\": \"image17.jpg\",\n            \"license_plate\": \"JKL901\",\n            \"price_perday\": 0,\n            \"stock\": 16,\n            \"description\": \"Description of Product17\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 18,\n            \"name_produk\": \"Product18\",\n            \"image\": \"image18.jpg\",\n            \"license_plate\": \"KLM234\",\n            \"price_perday\": 0,\n            \"stock\": 17,\n            \"description\": \"Description of Product18\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 19,\n            \"name_produk\": \"Product19\",\n            \"image\": \"image19.jpg\",\n            \"license_plate\": \"LMN567\",\n            \"price_perday\": 0,\n            \"stock\": 18,\n            \"description\": \"Description of Product19\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 20,\n            \"name_produk\": \"Product20\",\n            \"image\": \"image20.jpg\",\n            \"license_plate\": \"MNO890\",\n            \"price_perday\": 0,\n            \"stock\": 19,\n            \"description\": \"Description of Product20\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        }\n    ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "User Edit",
+					"item": [
+						{
+							"name": "Delete User",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"url": {
+									"raw": "{{URL}}/deleteuser/5",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"deleteuser",
+										"5"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Delete User",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"url": {
+											"raw": "{{URL}}/deleteuser/5",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"deleteuser",
+												"5"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 08:10:14 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "40"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"message\": \"User deleted successfully\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Get All Users",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"url": {
+									"raw": "{{URL}}/getalluser",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"getalluser"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get All Users",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"url": {
+											"raw": "{{URL}}/getalluser",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"getalluser"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 08:09:39 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "1184"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 2,\n            \"name\": \"\",\n            \"email\": \"sewa@example.com\",\n            \"number\": \"143452613278\",\n            \"role\": \"Sewa\",\n            \"balance\": 0,\n            \"created_at\": \"2024-06-04T14:26:14.128772+07:00\",\n            \"updated_at\": \"2024-06-04T14:26:14.128772+07:00\"\n        },\n        {\n            \"id\": 1,\n            \"name\": \"\",\n            \"email\": \"admin@example.com\",\n            \"number\": \"123452613278\",\n            \"role\": \"Admin\",\n            \"balance\": 0,\n            \"created_at\": \"2024-06-04T14:24:50.165603+07:00\",\n            \"updated_at\": \"2024-06-04T14:24:50.165603+07:00\"\n        },\n        {\n            \"id\": 4,\n            \"name\": \"\",\n            \"email\": \"penyewa@example.com\",\n            \"number\": \"153452613278\",\n            \"role\": \"Penyewa\",\n            \"balance\": 0,\n            \"created_at\": \"2024-06-04T14:29:36.15969+07:00\",\n            \"updated_at\": \"2024-06-04T14:29:36.15969+07:00\"\n        },\n        {\n            \"id\": 5,\n            \"name\": \"\",\n            \"email\": \"usaaaaaer@example.com\",\n            \"number\": \"12345678901\",\n            \"role\": \"Sewa\",\n            \"balance\": 0,\n            \"created_at\": \"2024-06-04T15:07:40.000152+07:00\",\n            \"updated_at\": \"2024-06-04T15:07:40.000152+07:00\"\n        },\n        {\n            \"id\": 7,\n            \"name\": \"\",\n            \"email\": \"usaaasadaer@example.com\",\n            \"number\": \"123415678901\",\n            \"role\": \"Sewa\",\n            \"balance\": 0,\n            \"created_at\": \"2024-06-04T15:07:50.233075+07:00\",\n            \"updated_at\": \"2024-06-04T15:07:50.233075+07:00\"\n        },\n        {\n            \"id\": 8,\n            \"name\": \"\",\n            \"email\": \"usaaaaer@example.com\",\n            \"number\": \"123675678901\",\n            \"role\": \"Sewa\",\n            \"balance\": 0,\n            \"created_at\": \"2024-06-04T15:08:03.545044+07:00\",\n            \"updated_at\": \"2024-06-04T15:08:03.545044+07:00\"\n        }\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "Update User",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"John Doe Updated\",\n    \"email\": \"fraasdnk@example.com\",\n    \"number\": \"098765432121\",\n    \"role\": \"Admin\",\n    \"password\": \"newpassword\",\n    \"balance\": 2000.0\n}"
+								},
+								"url": {
+									"raw": "{{URL}}/updateuser/8",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"updateuser",
+										"8"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Update User",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"name\": \"John Doe Updated\",\n    \"email\": \"fraasdnk@example.com\",\n    \"number\": \"098765432121\",\n    \"role\": \"Admin\",\n    \"password\": \"newpassword\",\n    \"balance\": 2000.0\n}"
+										},
+										"url": {
+											"raw": "{{URL}}/updateuser/8",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"updateuser",
+												"8"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 08:10:56 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "38"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"success\": \"succesfully update user\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Update User Balance",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"balance\": 200.75\n}"
+								},
+								"url": {
+									"raw": "{{URL}}/UpdateUserBalanceByID/1",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"UpdateUserBalanceByID",
+										"1"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Update User Copy",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"balance\": 200.75\n}"
+										},
+										"url": {
+											"raw": "{{URL}}/UpdateUserBalanceByID/2",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"UpdateUserBalanceByID",
+												"2"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 08:25:25 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "48"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"success\": \"successfully updated user balance\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Create User",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"John Doe\",\n    \"email\": \"john.doe@example.com\",\n    \"number\": \"12345678901\",\n    \"role\": \"Admin\",\n    \"password\": \"securepassword\",\n    \"balance\": 100.50\n}"
+								},
+								"url": {
+									"raw": "{{URL}}/createuser",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"createuser"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Update User Copy",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"name\": \"John Doe\",\n    \"email\": \"john.doe@example.com\",\n    \"number\": \"12345678901\",\n    \"role\": \"Admin\",\n    \"password\": \"securepassword\",\n    \"balance\": 100.50\n}"
+										},
+										"url": {
+											"raw": "{{URL}}/createuser",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"createuser"
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 08:21:35 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "28"
+										}
+									],
+									"cookie": [],
+									"body": "\"User created successfully\""
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Product Edit",
+					"item": [
+						{
+							"name": "GetAll Produk",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"url": {
+									"raw": "{{URL}}/getallproduk",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"getallproduk"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get Produk",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"url": {
+											"raw": "{{URL}}/getallproduk",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"getallproduk"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 08:51:32 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "1124"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 27,\n            \"owner_id\": 2,\n            \"location_id\": 13,\n            \"name_produk\": \"Bike A\",\n            \"image\": \"image_url_5\",\n            \"license_plate\": \"XYZ123\",\n            \"price_per_day\": 30,\n            \"description\": \"A reliable bike for city commuting.\",\n            \"created_at\": \"2024-06-04T15:48:31.407374+07:00\",\n            \"updated_at\": \"2024-06-04T15:48:31.407374+07:00\"\n        },\n        {\n            \"id\": 28,\n            \"owner_id\": 1,\n            \"location_id\": 14,\n            \"name_produk\": \"Bike B\",\n            \"image\": \"image_url_6\",\n            \"license_plate\": \"UVW456\",\n            \"price_per_day\": 35,\n            \"description\": \"A mountain bike for adventurous rides.\",\n            \"created_at\": \"2024-06-04T15:48:31.407374+07:00\",\n            \"updated_at\": \"2024-06-04T15:48:31.407374+07:00\"\n        },\n        {\n            \"id\": 29,\n            \"owner_id\": 4,\n            \"location_id\": 15,\n            \"name_produk\": \"Bike C\",\n            \"image\": \"image_url_7\",\n            \"license_plate\": \"RST789\",\n            \"price_per_day\": 40,\n            \"description\": \"A road bike for long-distance rides.\",\n            \"created_at\": \"2024-06-04T15:48:31.407374+07:00\",\n            \"updated_at\": \"2024-06-04T15:48:31.407374+07:00\"\n        },\n        {\n            \"id\": 30,\n            \"owner_id\": 7,\n            \"location_id\": 14,\n            \"name_produk\": \"Bike D\",\n            \"image\": \"image_url_8\",\n            \"license_plate\": \"OPQ012\",\n            \"price_per_day\": 45,\n            \"description\": \"An electric bike for easy commuting.\",\n            \"created_at\": \"2024-06-04T15:48:31.407374+07:00\",\n            \"updated_at\": \"2024-06-04T15:48:31.407374+07:00\"\n        }\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "Get My Produk",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"url": {
+									"raw": "{{URL}}/produk/myproduk",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"produk",
+										"myproduk"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get My Produk",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"url": {
+											"raw": "{{URL}}/produk/owner/1",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"produk",
+												"owner",
+												"1"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 05 Jun 2024 02:07:22 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "291"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 28,\n            \"owner_id\": 1,\n            \"location_id\": 14,\n            \"name_produk\": \"Bike B\",\n            \"image\": \"image_url_6\",\n            \"license_plate\": \"UVW456\",\n            \"price_per_day\": 35,\n            \"description\": \"A mountain bike for adventurous rides.\",\n            \"created_at\": \"2024-06-04T15:48:31.407374+07:00\",\n            \"updated_at\": \"2024-06-04T15:48:31.407374+07:00\"\n        }\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "Get produk by price",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"url": {
+									"raw": "{{URL}}/produk/price/35.00",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"produk",
+										"price",
+										"35.00"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get produk by price",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"url": {
+											"raw": "{{URL}}/produk/price/35.00",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"produk",
+												"price",
+												"35.00"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 05 Jun 2024 01:21:07 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "291"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 28,\n            \"owner_id\": 1,\n            \"location_id\": 14,\n            \"name_produk\": \"Bike B\",\n            \"image\": \"image_url_6\",\n            \"license_plate\": \"UVW456\",\n            \"price_per_day\": 35,\n            \"description\": \"A mountain bike for adventurous rides.\",\n            \"created_at\": \"2024-06-04T15:48:31.407374+07:00\",\n            \"updated_at\": \"2024-06-04T15:48:31.407374+07:00\"\n        }\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "Get produk by name",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"url": {
+									"raw": "{{URL}}/produk/name_produk/Bike A",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"produk",
+										"name_produk",
+										"Bike A"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get produk by price",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"url": {
+											"raw": "{{URL}}/produk/name_produk/bike",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"produk",
+												"name_produk",
+												"bike"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 05 Jun 2024 00:22:51 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "847"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 28,\n            \"owner_id\": 1,\n            \"location_id\": 14,\n            \"name_produk\": \"Bike B\",\n            \"image\": \"image_url_6\",\n            \"license_plate\": \"UVW456\",\n            \"price_per_day\": 35,\n            \"description\": \"A mountain bike for adventurous rides.\",\n            \"created_at\": \"2024-06-04T15:48:31.407374+07:00\",\n            \"updated_at\": \"2024-06-04T15:48:31.407374+07:00\"\n        },\n        {\n            \"id\": 29,\n            \"owner_id\": 4,\n            \"location_id\": 15,\n            \"name_produk\": \"Bike C\",\n            \"image\": \"image_url_7\",\n            \"license_plate\": \"RST789\",\n            \"price_per_day\": 40,\n            \"description\": \"A road bike for long-distance rides.\",\n            \"created_at\": \"2024-06-04T15:48:31.407374+07:00\",\n            \"updated_at\": \"2024-06-04T15:48:31.407374+07:00\"\n        },\n        {\n            \"id\": 30,\n            \"owner_id\": 7,\n            \"location_id\": 14,\n            \"name_produk\": \"Bike D\",\n            \"image\": \"image_url_8\",\n            \"license_plate\": \"OPQ012\",\n            \"price_per_day\": 45,\n            \"description\": \"An electric bike for easy commuting.\",\n            \"created_at\": \"2024-06-04T15:48:31.407374+07:00\",\n            \"updated_at\": \"2024-06-04T15:48:31.407374+07:00\"\n        }\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "Get Produk by lokasi",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"url": {
+									"raw": "{{URL}}/produk/lokasi/14",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"produk",
+										"lokasi",
+										"14"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get Produk by lokasi",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"url": {
+											"raw": "{{URL}}/produk/lokasi/14",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"produk",
+												"lokasi",
+												"14"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 05 Jun 2024 01:28:26 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "569"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 28,\n            \"owner_id\": 1,\n            \"location_id\": 14,\n            \"name_produk\": \"Bike B\",\n            \"image\": \"image_url_6\",\n            \"license_plate\": \"UVW456\",\n            \"price_per_day\": 35,\n            \"description\": \"A mountain bike for adventurous rides.\",\n            \"created_at\": \"2024-06-04T15:48:31.407374+07:00\",\n            \"updated_at\": \"2024-06-04T15:48:31.407374+07:00\"\n        },\n        {\n            \"id\": 30,\n            \"owner_id\": 7,\n            \"location_id\": 14,\n            \"name_produk\": \"Bike D\",\n            \"image\": \"image_url_8\",\n            \"license_plate\": \"OPQ012\",\n            \"price_per_day\": 45,\n            \"description\": \"An electric bike for easy commuting.\",\n            \"created_at\": \"2024-06-04T15:48:31.407374+07:00\",\n            \"updated_at\": \"2024-06-04T15:48:31.407374+07:00\"\n        }\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "Create Produk",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"owner_id\": 7,\r\n    \"location_id\": 5,\r\n    \"name_produk\": \"Motorcycle\",\r\n    \"image\": \"http://example.com/image.jpg\",\r\n    \"license_plate\": \"AB123CD\",\r\n    \"price_per_day\": 150.00,\r\n    \"description\": \"A reliable motorcycle for rent.\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/createproduk",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"createproduk"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Create Produk",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"owner_id\": 2,\r\n    \"location_id\": 13,\r\n    \"name_produk\": \"Motorcycle\",\r\n    \"image\": \"http://example.com/image.jpg\",\r\n    \"license_plate\": \"AB123CD\",\r\n    \"price_per_day\": 150.00,\r\n    \"description\": \"A reliable motorcycle for rent.\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{URL}}/createproduk",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"createproduk"
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 08:52:12 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "30"
+										}
+									],
+									"cookie": [],
+									"body": "\"Produk created successfully\""
+								}
+							]
+						},
+						{
+							"name": "Update Produk By Id",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"owner_id\": 2,\r\n    \"location_id\": 13,\r\n    \"name_produk\": \"Updated Motorcycle\",\r\n    \"image\": \"http://example.com/updated_image.jpg\",\r\n    \"license_plate\": \"XYZ123\",\r\n    \"price_per_day\": 175.00,\r\n    \"description\": \"An updated description for the reliable motorcycle.\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/updateproduk/27",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"updateproduk",
+										"27"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Update Produk",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"owner_id\": 2,\r\n    \"location_id\": 13,\r\n    \"name_produk\": \"Updated Motorcycle\",\r\n    \"image\": \"http://example.com/updated_image.jpg\",\r\n    \"license_plate\": \"XYZ123\",\r\n    \"price_per_day\": 175.00,\r\n    \"description\": \"An updated description for the reliable motorcycle.\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{URL}}/updateproduk/27",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"updateproduk",
+												"27"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 08:53:13 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "42"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"success\": \"Produk updated successfully\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Transaction Edit",
+					"item": [
+						{
+							"name": "Get all Transaction",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"url": {
+									"raw": "{{URL}}/getalltransaksi",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"getalltransaksi"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get all Transaction",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"url": {
+											"raw": "{{URL}}/getalltransaksi",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"getalltransaksi"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 09:29:09 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "498"
+										}
+									],
+									"cookie": [],
+									"body": "[\n    {\n        \"ID\": 9,\n        \"user_id\": 4,\n        \"produk_id\": 27,\n        \"tipe_transaksi\": \"topup\",\n        \"jumlah\": 150,\n        \"created_at\": \"2024-06-04T15:49:22.096905+07:00\"\n    },\n    {\n        \"ID\": 10,\n        \"user_id\": 1,\n        \"produk_id\": 28,\n        \"tipe_transaksi\": \"pembelian\",\n        \"jumlah\": 35,\n        \"created_at\": \"2024-06-04T15:49:22.096905+07:00\"\n    },\n    {\n        \"ID\": 11,\n        \"user_id\": 2,\n        \"produk_id\": 29,\n        \"tipe_transaksi\": \"pencairan\",\n        \"jumlah\": 40,\n        \"created_at\": \"2024-06-04T15:49:22.096905+07:00\"\n    },\n    {\n        \"ID\": 12,\n        \"user_id\": 7,\n        \"produk_id\": 27,\n        \"tipe_transaksi\": \"topup\",\n        \"jumlah\": 45,\n        \"created_at\": \"2024-06-04T15:49:22.096905+07:00\"\n    }\n]"
+								}
+							]
+						},
+						{
+							"name": "Get Transaksi Profile",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"url": {
+									"raw": "{{URL}}/getransaksiprofile",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"getransaksiprofile"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get all Transaction",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"url": {
+											"raw": "{{URL}}/getalltransaksi",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"getalltransaksi"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 09:29:09 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "498"
+										}
+									],
+									"cookie": [],
+									"body": "[\n    {\n        \"ID\": 9,\n        \"user_id\": 4,\n        \"produk_id\": 27,\n        \"tipe_transaksi\": \"topup\",\n        \"jumlah\": 150,\n        \"created_at\": \"2024-06-04T15:49:22.096905+07:00\"\n    },\n    {\n        \"ID\": 10,\n        \"user_id\": 1,\n        \"produk_id\": 28,\n        \"tipe_transaksi\": \"pembelian\",\n        \"jumlah\": 35,\n        \"created_at\": \"2024-06-04T15:49:22.096905+07:00\"\n    },\n    {\n        \"ID\": 11,\n        \"user_id\": 2,\n        \"produk_id\": 29,\n        \"tipe_transaksi\": \"pencairan\",\n        \"jumlah\": 40,\n        \"created_at\": \"2024-06-04T15:49:22.096905+07:00\"\n    },\n    {\n        \"ID\": 12,\n        \"user_id\": 7,\n        \"produk_id\": 27,\n        \"tipe_transaksi\": \"topup\",\n        \"jumlah\": 45,\n        \"created_at\": \"2024-06-04T15:49:22.096905+07:00\"\n    }\n]"
+								}
+							]
+						},
+						{
+							"name": "Get Transaction Byid",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"url": {
+									"raw": "{{URL}}/gettransaksibyid/9",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"gettransaksibyid",
+										"9"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get Transaction Byid",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"url": {
+											"raw": "{{URL}}/gettransaksibyid/9",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"gettransaksibyid",
+												"9"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 09:29:23 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "122"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"ID\": 9,\n    \"user_id\": 4,\n    \"produk_id\": 27,\n    \"tipe_transaksi\": \"topup\",\n    \"jumlah\": 150,\n    \"created_at\": \"2024-06-04T15:49:22.096905+07:00\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "lokasi",
+					"item": [
+						{
+							"name": "Create Location",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"user_id\": 1,\r\n    \"address\": \"123 Main St\",\r\n    \"city\": \"Anytown\",\r\n    \"state\": \"Anystate\",\r\n    \"postal_code\": \"12345\",\r\n    \"country\": \"USA\",\r\n    \"latitude\": 40.712776,\r\n    \"longitude\": -74.005974\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/lokasi",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"lokasi"
+									]
+								},
+								"description": "berikut merupakan endpoint untuk melakukan update profile dari sisi pembeli."
+							},
+							"response": [
+								{
+									"name": "Create Location",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"user_id\": 1,\r\n    \"address\": \"123 Main St\",\r\n    \"city\": \"Anytown\",\r\n    \"state\": \"Anystate\",\r\n    \"postal_code\": \"12345\",\r\n    \"country\": \"USA\",\r\n    \"latitude\": 40.712776,\r\n    \"longitude\": -74.005974\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{URL}}/lokasi",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"lokasi"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 14:56:53 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "270"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": {\n        \"id\": 0,\n        \"user_id\": 1,\n        \"address\": \"123 Main St\",\n        \"city\": \"Anytown\",\n        \"state\": \"Anystate\",\n        \"postal_code\": \"12345\",\n        \"country\": \"USA\",\n        \"latitude\": 40.712776,\n        \"longitude\": -74.005974,\n        \"created_at\": \"2024-06-04T21:56:53.6298236+07:00\",\n        \"updated_at\": \"2024-06-04T21:56:53.6298236+07:00\"\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "Getall location",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/lokasi",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"lokasi"
+									]
+								},
+								"description": "endpoint berikut ini digunakan untuk melihat saldi yang dimiliki oleh pembeli."
+							},
+							"response": [
+								{
+									"name": "Getall location",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{URL}}/lokasi",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"lokasi"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 14:55:39 GMT"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 13,\n            \"user_id\": 1,\n            \"address\": \"123 Main St\",\n            \"city\": \"Anytown\",\n            \"state\": \"Anystate\",\n            \"postal_code\": \"12345\",\n            \"country\": \"USA\",\n            \"latitude\": 40.712776,\n            \"longitude\": -74.005974,\n            \"created_at\": \"2024-06-04T15:42:42.378243+07:00\",\n            \"updated_at\": \"2024-06-04T15:42:42.378243+07:00\"\n        },\n        {\n            \"id\": 14,\n            \"user_id\": 2,\n            \"address\": \"456 Oak St\",\n            \"city\": \"Othertown\",\n            \"state\": \"Otherstate\",\n            \"postal_code\": \"67890\",\n            \"country\": \"USA\",\n            \"latitude\": 34.052235,\n            \"longitude\": -118.243683,\n            \"created_at\": \"2024-06-04T15:42:42.378243+07:00\",\n            \"updated_at\": \"2024-06-04T15:42:42.378243+07:00\"\n        },\n        {\n            \"id\": 15,\n            \"user_id\": 7,\n            \"address\": \"789 Pine St\",\n            \"city\": \"Sometown\",\n            \"state\": \"Somestate\",\n            \"postal_code\": \"11223\",\n            \"country\": \"USA\",\n            \"latitude\": 41.878113,\n            \"longitude\": -87.629799,\n            \"created_at\": \"2024-06-04T15:42:42.378243+07:00\",\n            \"updated_at\": \"2024-06-04T15:42:42.378243+07:00\"\n        },\n        {\n            \"id\": 16,\n            \"user_id\": 4,\n            \"address\": \"101 Maple St\",\n            \"city\": \"Anycity\",\n            \"state\": \"Anystate\",\n            \"postal_code\": \"44556\",\n            \"country\": \"USA\",\n            \"latitude\": 37.774929,\n            \"longitude\": -122.419418,\n            \"created_at\": \"2024-06-04T15:42:42.378243+07:00\",\n            \"updated_at\": \"2024-06-04T15:42:42.378243+07:00\"\n        },\n        {\n            \"id\": 25,\n            \"user_id\": 7,\n            \"address\": \"321 Birch St\",\n            \"city\": \"Newtown\",\n            \"state\": \"Newstate\",\n            \"postal_code\": \"54321\",\n            \"country\": \"USA\",\n            \"latitude\": 39.952583,\n            \"longitude\": -75.165222,\n            \"created_at\": \"2024-06-04T15:45:21.514099+07:00\",\n            \"updated_at\": \"2024-06-04T15:45:21.514099+07:00\"\n        },\n        {\n            \"id\": 26,\n            \"user_id\": 1,\n            \"address\": \"654 Cedar St\",\n            \"city\": \"Oldtown\",\n            \"state\": \"Oldstate\",\n            \"postal_code\": \"98765\",\n            \"country\": \"USA\",\n            \"latitude\": 36.778259,\n            \"longitude\": -119.417931,\n            \"created_at\": \"2024-06-04T15:45:21.514099+07:00\",\n            \"updated_at\": \"2024-06-04T15:45:21.514099+07:00\"\n        },\n        {\n            \"id\": 27,\n            \"user_id\": 4,\n            \"address\": \"987 Elm St\",\n            \"city\": \"Middletown\",\n            \"state\": \"Middlestate\",\n            \"postal_code\": \"32145\",\n            \"country\": \"USA\",\n            \"latitude\": 34.052235,\n            \"longitude\": -118.243683,\n            \"created_at\": \"2024-06-04T15:45:21.514099+07:00\",\n            \"updated_at\": \"2024-06-04T15:45:21.514099+07:00\"\n        },\n        {\n            \"id\": 28,\n            \"user_id\": 2,\n            \"address\": \"210 Spruce St\",\n            \"city\": \"Smalltown\",\n            \"state\": \"Smallstate\",\n            \"postal_code\": \"56789\",\n            \"country\": \"USA\",\n            \"latitude\": 40.73061,\n            \"longitude\": -73.935242,\n            \"created_at\": \"2024-06-04T15:45:21.514099+07:00\",\n            \"updated_at\": \"2024-06-04T15:45:21.514099+07:00\"\n        }\n    ]\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Profile",
+					"item": [
+						{
+							"name": "Update Profile",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"name\": \"John Doe\",\r\n  \"email\" : \"Buyer1@gmail.com\",\r\n  \"number\": \"12345678901\",\r\n  \"password\" : \"123123123123123123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/users/profile",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"users",
+										"profile"
+									]
+								},
+								"description": "berikut merupakan endpoint untuk melakukan update profile dari sisi pembeli."
+							},
+							"response": [
+								{
+									"name": "Update Profile",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"name\": \"John Doe\",\r\n  \"email\" : \"Buyer1@gmail.com\",\r\n  \"number\": \"12345678901\",\r\n  \"password\" : \"123123123123123123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{URL}}/users/profile",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"users",
+												"profile"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 02 Dec 2023 21:43:48 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "39"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"success\": \"successfully update user\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Delete Profile",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\": 9\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/users/deleteprofile",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"users",
+										"deleteprofile"
+									]
+								},
+								"description": "berikut merupakan endpoint untuk menghapus profile pembeli."
+							},
+							"response": [
+								{
+									"name": "Delete Profile",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"id\": 9\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{URL}}/users/deleteprofile",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"users",
+												"deleteprofile"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 02 Dec 2023 21:54:29 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "40"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"message\": \"User deleted successfully\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Get Saldo",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/users/balance",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"users",
+										"balance"
+									]
+								},
+								"description": "endpoint berikut ini digunakan untuk melihat saldi yang dimiliki oleh pembeli."
+							},
+							"response": [
+								{
+									"name": "Get Saldo",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{URL}}/users/balance",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"users",
+												"balance"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 02 Dec 2023 21:49:43 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "7"
+										}
+									],
+									"cookie": [],
+									"body": "100000"
+								}
+							]
+						},
+						{
+							"name": "Get Profile",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/users/profile",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"users",
+										"profile"
+									]
+								},
+								"description": "endpoint berikut ini digunakan untuk melihat profile"
+							},
+							"response": [
+								{
+									"name": "Get Profile",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{URL}}/users/profile",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"users",
+												"profile"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 23:15:35 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "194"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": 1,\n    \"name\": \"\",\n    \"email\": \"admin@example.com\",\n    \"number\": \"123452613278\",\n    \"role\": \"Admin\",\n    \"balance\": 0,\n    \"created_at\": \"2024-06-04T14:24:50.165603+07:00\",\n    \"updated_at\": \"2024-06-04T14:24:50.165603+07:00\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Logout",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Admin}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/user/logout",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"user",
+										"logout"
+									]
+								},
+								"description": "endpoint diatas digunakan untuk melakukan logout akun."
+							},
+							"response": [
+								{
+									"name": "Logout",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{URL}}/user/logout",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"user",
+												"logout"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 04 Dec 2023 20:08:02 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "38"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"success\": \"successfully logged out\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Login Admin",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"admin@example.com\",\n    \"password\": \"password\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/login",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Login Admin",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"email\": \"admin@example.com\",\n    \"password\": \"password\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/login",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 04 Jun 2024 08:05:02 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "205"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"access_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6IiIsImVtYWlsIjoiYWRtaW5AZXhhbXBsZS5jb20iLCJyb2xlIjoiQWRtaW4iLCJleHAiOjE3MTc0ODg5MDJ9.IRukAu2VhqtxOrrHHtS5NMBnoWYnzkim9lcoL9tj9NI\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sewa",
+			"item": [
+				{
+					"name": "Profile",
+					"item": [
+						{
+							"name": "Update Profile",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Sewa}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"name\": \"John Doe\",\r\n  \"email\" : \"Buyer1@gmail.com\",\r\n  \"number\": \"12345678901\",\r\n  \"password\" : \"123123123123123123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/users/profile",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"users",
+										"profile"
+									]
+								},
+								"description": "berikut merupakan endpoint untuk melakukan update profile dari sisi pembeli."
+							},
+							"response": [
+								{
+									"name": "Update Profile",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"name\": \"John Doe\",\r\n  \"email\" : \"Buyer1@gmail.com\",\r\n  \"number\": \"12345678901\",\r\n  \"password\" : \"123123123123123123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{URL}}/users/profile",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"users",
+												"profile"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 02 Dec 2023 21:43:48 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "39"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"success\": \"successfully update user\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Delete Profile",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Sewa}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\": 9\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/users/deleteprofile",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"users",
+										"deleteprofile"
+									]
+								},
+								"description": "berikut merupakan endpoint untuk menghapus profile pembeli."
+							},
+							"response": [
+								{
+									"name": "Delete Profile",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"id\": 9\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{URL}}/users/deleteprofile",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"users",
+												"deleteprofile"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 02 Dec 2023 21:54:29 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "40"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"message\": \"User deleted successfully\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Get Saldo",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Sewa}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/users/balance",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"users",
+										"balance"
+									]
+								},
+								"description": "endpoint berikut ini digunakan untuk melihat saldi yang dimiliki oleh pembeli."
+							},
+							"response": [
+								{
+									"name": "Get Saldo",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{URL}}/users/balance",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"users",
+												"balance"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 02 Dec 2023 21:49:43 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "7"
+										}
+									],
+									"cookie": [],
+									"body": "100000"
+								}
+							]
+						},
+						{
+							"name": "Get Profile",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Buyer}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/users/profile",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"users",
+										"profile"
+									]
+								},
+								"description": "endpoint berikut ini digunakan untuk melihat profile"
+							},
+							"response": [
+								{
+									"name": "Get Profile",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{URL}}/users/profile",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"users",
+												"profile"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 02 Dec 2023 21:36:00 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "191"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": 9,\n    \"name\": \"\",\n    \"email\": \"Buyer1@gmail.com\",\n    \"number\": \"00000000000\",\n    \"roles\": \"Buyer\",\n    \"saldo\": 0,\n    \"created_at\": \"2023-12-03T01:29:58.477828+07:00\",\n    \"updated_at\": \"2023-12-03T01:29:58.477828+07:00\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Logout",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Buyer}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/user/logout",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"user",
+										"logout"
+									]
+								},
+								"description": "endpoint diatas digunakan untuk melakukan logout akun."
+							},
+							"response": [
+								{
+									"name": "Logout",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{URL}}/user/logout",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"user",
+												"logout"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 04 Dec 2023 20:08:02 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "38"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"success\": \"successfully logged out\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "History transaksi",
+					"item": [
+						{
+							"name": "Get Transaksi Profile",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Sewa}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"url": {
+									"raw": "{{URL}}/getransaksiprofile",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"getransaksiprofile"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get all Transaction",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"url": {
+											"raw": "{{URL}}/getalltransaksi",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"getalltransaksi"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 09:29:09 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "498"
+										}
+									],
+									"cookie": [],
+									"body": "[\n    {\n        \"ID\": 9,\n        \"user_id\": 4,\n        \"produk_id\": 27,\n        \"tipe_transaksi\": \"topup\",\n        \"jumlah\": 150,\n        \"created_at\": \"2024-06-04T15:49:22.096905+07:00\"\n    },\n    {\n        \"ID\": 10,\n        \"user_id\": 1,\n        \"produk_id\": 28,\n        \"tipe_transaksi\": \"pembelian\",\n        \"jumlah\": 35,\n        \"created_at\": \"2024-06-04T15:49:22.096905+07:00\"\n    },\n    {\n        \"ID\": 11,\n        \"user_id\": 2,\n        \"produk_id\": 29,\n        \"tipe_transaksi\": \"pencairan\",\n        \"jumlah\": 40,\n        \"created_at\": \"2024-06-04T15:49:22.096905+07:00\"\n    },\n    {\n        \"ID\": 12,\n        \"user_id\": 7,\n        \"produk_id\": 27,\n        \"tipe_transaksi\": \"topup\",\n        \"jumlah\": 45,\n        \"created_at\": \"2024-06-04T15:49:22.096905+07:00\"\n    }\n]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Product",
+					"item": [
+						{
+							"name": "Get Produk",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Sewa}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"url": {
+									"raw": "{{URL}}/produk",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"produk"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get Produk",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"url": {
+											"raw": "{{URL}}/produk",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"produk"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 03 Jun 2024 22:34:59 GMT"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name_produk\": \"Product1\",\n            \"image\": \"image1.jpg\",\n            \"license_plate\": \"ABC123\",\n            \"price_perday\": 0,\n            \"stock\": 10,\n            \"description\": \"Description of Product1\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 2,\n            \"name_produk\": \"Product2\",\n            \"image\": \"image2.jpg\",\n            \"license_plate\": \"DEF456\",\n            \"price_perday\": 0,\n            \"stock\": 8,\n            \"description\": \"Description of Product2\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 3,\n            \"name_produk\": \"Product3\",\n            \"image\": \"image3.jpg\",\n            \"license_plate\": \"GHI789\",\n            \"price_perday\": 0,\n            \"stock\": 5,\n            \"description\": \"Description of Product3\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 4,\n            \"name_produk\": \"Product4\",\n            \"image\": \"image4.jpg\",\n            \"license_plate\": \"JKL012\",\n            \"price_perday\": 0,\n            \"stock\": 12,\n            \"description\": \"Description of Product4\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 5,\n            \"name_produk\": \"Product5\",\n            \"image\": \"image5.jpg\",\n            \"license_plate\": \"MNO345\",\n            \"price_perday\": 0,\n            \"stock\": 6,\n            \"description\": \"Description of Product5\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 6,\n            \"name_produk\": \"Product6\",\n            \"image\": \"image6.jpg\",\n            \"license_plate\": \"PQR678\",\n            \"price_perday\": 0,\n            \"stock\": 7,\n            \"description\": \"Description of Product6\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 7,\n            \"name_produk\": \"Product7\",\n            \"image\": \"image7.jpg\",\n            \"license_plate\": \"STU901\",\n            \"price_perday\": 0,\n            \"stock\": 9,\n            \"description\": \"Description of Product7\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 8,\n            \"name_produk\": \"Product8\",\n            \"image\": \"image8.jpg\",\n            \"license_plate\": \"VWX234\",\n            \"price_perday\": 0,\n            \"stock\": 4,\n            \"description\": \"Description of Product8\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 9,\n            \"name_produk\": \"Product9\",\n            \"image\": \"image9.jpg\",\n            \"license_plate\": \"YZA567\",\n            \"price_perday\": 0,\n            \"stock\": 3,\n            \"description\": \"Description of Product9\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 10,\n            \"name_produk\": \"Product10\",\n            \"image\": \"image10.jpg\",\n            \"license_plate\": \"BCD890\",\n            \"price_perday\": 0,\n            \"stock\": 2,\n            \"description\": \"Description of Product10\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 11,\n            \"name_produk\": \"Product11\",\n            \"image\": \"image11.jpg\",\n            \"license_plate\": \"CDE123\",\n            \"price_perday\": 0,\n            \"stock\": 11,\n            \"description\": \"Description of Product11\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 12,\n            \"name_produk\": \"Product12\",\n            \"image\": \"image12.jpg\",\n            \"license_plate\": \"EFG456\",\n            \"price_perday\": 0,\n            \"stock\": 1,\n            \"description\": \"Description of Product12\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 13,\n            \"name_produk\": \"Product13\",\n            \"image\": \"image13.jpg\",\n            \"license_plate\": \"FGH789\",\n            \"price_perday\": 0,\n            \"stock\": 0,\n            \"description\": \"Description of Product13\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 14,\n            \"name_produk\": \"Product14\",\n            \"image\": \"image14.jpg\",\n            \"license_plate\": \"GHI012\",\n            \"price_perday\": 0,\n            \"stock\": 15,\n            \"description\": \"Description of Product14\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 15,\n            \"name_produk\": \"Product15\",\n            \"image\": \"image15.jpg\",\n            \"license_plate\": \"HIJ345\",\n            \"price_perday\": 0,\n            \"stock\": 14,\n            \"description\": \"Description of Product15\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 16,\n            \"name_produk\": \"Product16\",\n            \"image\": \"image16.jpg\",\n            \"license_plate\": \"IJK678\",\n            \"price_perday\": 0,\n            \"stock\": 13,\n            \"description\": \"Description of Product16\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 17,\n            \"name_produk\": \"Product17\",\n            \"image\": \"image17.jpg\",\n            \"license_plate\": \"JKL901\",\n            \"price_perday\": 0,\n            \"stock\": 16,\n            \"description\": \"Description of Product17\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 18,\n            \"name_produk\": \"Product18\",\n            \"image\": \"image18.jpg\",\n            \"license_plate\": \"KLM234\",\n            \"price_perday\": 0,\n            \"stock\": 17,\n            \"description\": \"Description of Product18\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 19,\n            \"name_produk\": \"Product19\",\n            \"image\": \"image19.jpg\",\n            \"license_plate\": \"LMN567\",\n            \"price_perday\": 0,\n            \"stock\": 18,\n            \"description\": \"Description of Product19\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 20,\n            \"name_produk\": \"Product20\",\n            \"image\": \"image20.jpg\",\n            \"license_plate\": \"MNO890\",\n            \"price_perday\": 0,\n            \"stock\": 19,\n            \"description\": \"Description of Product20\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        }\n    ]\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Topup",
+					"item": [
+						{
+							"name": "Manual Topup",
+							"item": [
+								{
+									"name": "Topup Saldo",
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": [
+												{
+													"key": "token",
+													"value": "{{Token-Buyer}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"id\": \"topup123\",\r\n    \"user_id\": 1,\r\n    \"amount\": 10000,\r\n    \"status\": 0\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/topup",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"topup"
+											]
+										},
+										"description": "endpoin ini digunakan ketika pembeli ingin melakukan top up saldo."
+									},
+									"response": []
+								},
+								{
+									"name": "User Topup",
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": [
+												{
+													"key": "token",
+													"value": "{{Token-Buyer}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"amount\": 1000 \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{URL}}/user/topup",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"user",
+												"topup"
+											]
+										},
+										"description": "ini untuk topup manual tidak menggunakan midtrans jadi si user bisa menambahkan saldo menggunakan jwt untuk mendeketsi id nya kemudian menambahkan saldo nya"
+									},
+									"response": []
+								},
+								{
+									"name": "Topup Saldo",
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": [
+												{
+													"key": "token",
+													"value": "{{Token-Buyer}}",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"saldo\" : 1000\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{URL}}/user/upgrade",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"user",
+												"upgrade"
+											]
+										},
+										"description": "endpoint ini berfungsi untuk melakukan upgrade pada saldo yang dimiliki oleh pembeli."
+									},
+									"response": [
+										{
+											"name": "topup sederhana",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"saldo\" : 1000\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{URL}}/user/upgrade",
+													"host": [
+														"{{URL}}"
+													],
+													"path": [
+														"user",
+														"upgrade"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=UTF-8"
+												},
+												{
+													"key": "Vary",
+													"value": "Origin"
+												},
+												{
+													"key": "Date",
+													"value": "Mon, 04 Dec 2023 19:50:33 GMT"
+												},
+												{
+													"key": "Content-Length",
+													"value": "46"
+												}
+											],
+											"cookie": [],
+											"body": "{\n    \"success\": \"successfully updated user saldo\"\n}"
+										}
+									]
+								}
+							],
+							"description": "Folder untuk top up dari sisi user atau pembeli tanpa menggunakan midtrans."
+						},
+						{
+							"name": "Cek Saldo",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Buyer}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/users/balance",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"users",
+										"balance"
+									]
+								},
+								"description": "endpoint ini berfungsi untuk melihat jumlah saldo yang dimiliki."
+							},
+							"response": [
+								{
+									"name": "Get Saldo",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{URL}}/users/balance",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"users",
+												"balance"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 02 Dec 2023 21:49:43 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "7"
+										}
+									],
+									"cookie": [],
+									"body": "100000"
+								}
+							]
+						},
+						{
+							"name": "midtrans",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Buyer}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\t\"order_id\": \"topup\",\r\n\t\"amount\": 50000\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/transactions",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"transactions"
+									]
+								},
+								"description": "endpoint topup menggunakan midtrans"
+							},
+							"response": [
+								{
+									"name": "midtrans",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\t\"order_id\": \"topup\",\r\n\t\"amount\": 50000\r\n}\r\n",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{URL}}/transactions",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"transactions"
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 05 Dec 2023 16:29:17 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "111"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"url_pembayaran\": \"https://app.sandbox.midtrans.com/snap/v3/redirection/17f57236-6ef2-4deb-a044-e4724a5c291e\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "lokasi",
+					"item": [
+						{
+							"name": "Create Location",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Buyer}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"user_id\": 1,\r\n    \"address\": \"123 Main St\",\r\n    \"city\": \"Anytown\",\r\n    \"state\": \"Anystate\",\r\n    \"postal_code\": \"12345\",\r\n    \"country\": \"USA\",\r\n    \"latitude\": 40.712776,\r\n    \"longitude\": -74.005974\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/lokasi",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"lokasi"
+									]
+								},
+								"description": "berikut merupakan endpoint untuk melakukan update profile dari sisi pembeli."
+							},
+							"response": [
+								{
+									"name": "Create Location",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"user_id\": 1,\r\n    \"address\": \"123 Main St\",\r\n    \"city\": \"Anytown\",\r\n    \"state\": \"Anystate\",\r\n    \"postal_code\": \"12345\",\r\n    \"country\": \"USA\",\r\n    \"latitude\": 40.712776,\r\n    \"longitude\": -74.005974\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{URL}}/lokasi",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"lokasi"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 14:56:53 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "270"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": {\n        \"id\": 0,\n        \"user_id\": 1,\n        \"address\": \"123 Main St\",\n        \"city\": \"Anytown\",\n        \"state\": \"Anystate\",\n        \"postal_code\": \"12345\",\n        \"country\": \"USA\",\n        \"latitude\": 40.712776,\n        \"longitude\": -74.005974,\n        \"created_at\": \"2024-06-04T21:56:53.6298236+07:00\",\n        \"updated_at\": \"2024-06-04T21:56:53.6298236+07:00\"\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "Getall location",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Buyer}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/lokasi",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"lokasi"
+									]
+								},
+								"description": "endpoint berikut ini digunakan untuk melihat saldi yang dimiliki oleh pembeli."
+							},
+							"response": [
+								{
+									"name": "Getall location",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{URL}}/lokasi",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"lokasi"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 14:55:39 GMT"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 13,\n            \"user_id\": 1,\n            \"address\": \"123 Main St\",\n            \"city\": \"Anytown\",\n            \"state\": \"Anystate\",\n            \"postal_code\": \"12345\",\n            \"country\": \"USA\",\n            \"latitude\": 40.712776,\n            \"longitude\": -74.005974,\n            \"created_at\": \"2024-06-04T15:42:42.378243+07:00\",\n            \"updated_at\": \"2024-06-04T15:42:42.378243+07:00\"\n        },\n        {\n            \"id\": 14,\n            \"user_id\": 2,\n            \"address\": \"456 Oak St\",\n            \"city\": \"Othertown\",\n            \"state\": \"Otherstate\",\n            \"postal_code\": \"67890\",\n            \"country\": \"USA\",\n            \"latitude\": 34.052235,\n            \"longitude\": -118.243683,\n            \"created_at\": \"2024-06-04T15:42:42.378243+07:00\",\n            \"updated_at\": \"2024-06-04T15:42:42.378243+07:00\"\n        },\n        {\n            \"id\": 15,\n            \"user_id\": 7,\n            \"address\": \"789 Pine St\",\n            \"city\": \"Sometown\",\n            \"state\": \"Somestate\",\n            \"postal_code\": \"11223\",\n            \"country\": \"USA\",\n            \"latitude\": 41.878113,\n            \"longitude\": -87.629799,\n            \"created_at\": \"2024-06-04T15:42:42.378243+07:00\",\n            \"updated_at\": \"2024-06-04T15:42:42.378243+07:00\"\n        },\n        {\n            \"id\": 16,\n            \"user_id\": 4,\n            \"address\": \"101 Maple St\",\n            \"city\": \"Anycity\",\n            \"state\": \"Anystate\",\n            \"postal_code\": \"44556\",\n            \"country\": \"USA\",\n            \"latitude\": 37.774929,\n            \"longitude\": -122.419418,\n            \"created_at\": \"2024-06-04T15:42:42.378243+07:00\",\n            \"updated_at\": \"2024-06-04T15:42:42.378243+07:00\"\n        },\n        {\n            \"id\": 25,\n            \"user_id\": 7,\n            \"address\": \"321 Birch St\",\n            \"city\": \"Newtown\",\n            \"state\": \"Newstate\",\n            \"postal_code\": \"54321\",\n            \"country\": \"USA\",\n            \"latitude\": 39.952583,\n            \"longitude\": -75.165222,\n            \"created_at\": \"2024-06-04T15:45:21.514099+07:00\",\n            \"updated_at\": \"2024-06-04T15:45:21.514099+07:00\"\n        },\n        {\n            \"id\": 26,\n            \"user_id\": 1,\n            \"address\": \"654 Cedar St\",\n            \"city\": \"Oldtown\",\n            \"state\": \"Oldstate\",\n            \"postal_code\": \"98765\",\n            \"country\": \"USA\",\n            \"latitude\": 36.778259,\n            \"longitude\": -119.417931,\n            \"created_at\": \"2024-06-04T15:45:21.514099+07:00\",\n            \"updated_at\": \"2024-06-04T15:45:21.514099+07:00\"\n        },\n        {\n            \"id\": 27,\n            \"user_id\": 4,\n            \"address\": \"987 Elm St\",\n            \"city\": \"Middletown\",\n            \"state\": \"Middlestate\",\n            \"postal_code\": \"32145\",\n            \"country\": \"USA\",\n            \"latitude\": 34.052235,\n            \"longitude\": -118.243683,\n            \"created_at\": \"2024-06-04T15:45:21.514099+07:00\",\n            \"updated_at\": \"2024-06-04T15:45:21.514099+07:00\"\n        },\n        {\n            \"id\": 28,\n            \"user_id\": 2,\n            \"address\": \"210 Spruce St\",\n            \"city\": \"Smalltown\",\n            \"state\": \"Smallstate\",\n            \"postal_code\": \"56789\",\n            \"country\": \"USA\",\n            \"latitude\": 40.73061,\n            \"longitude\": -73.935242,\n            \"created_at\": \"2024-06-04T15:45:21.514099+07:00\",\n            \"updated_at\": \"2024-06-04T15:45:21.514099+07:00\"\n        }\n    ]\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Login Sewa",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"sewa@example.com\",\n    \"password\": \"password\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/login",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Login Sewa",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"email\": \"sewa@example.com\",\n    \"password\": \"password\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/login",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 04 Jun 2024 09:50:49 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "203"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"access_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwibmFtZSI6IiIsImVtYWlsIjoic2V3YUBleGFtcGxlLmNvbSIsInJvbGUiOiJTZXdhIiwiZXhwIjoxNzE3NDk1MjQ5fQ.VnO8t1iQFsfMIe0fjUYZjn5Lycy3BwIKLsrj_geqWkQ\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Penyewa",
+			"item": [
+				{
+					"name": "Product",
+					"item": [
+						{
+							"name": "Get Produk",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Penyewa}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"url": {
+									"raw": "{{URL}}/produk",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"produk"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get Produk",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"url": {
+											"raw": "{{URL}}/produk",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"produk"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 03 Jun 2024 22:34:59 GMT"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name_produk\": \"Product1\",\n            \"image\": \"image1.jpg\",\n            \"license_plate\": \"ABC123\",\n            \"price_perday\": 0,\n            \"stock\": 10,\n            \"description\": \"Description of Product1\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 2,\n            \"name_produk\": \"Product2\",\n            \"image\": \"image2.jpg\",\n            \"license_plate\": \"DEF456\",\n            \"price_perday\": 0,\n            \"stock\": 8,\n            \"description\": \"Description of Product2\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 3,\n            \"name_produk\": \"Product3\",\n            \"image\": \"image3.jpg\",\n            \"license_plate\": \"GHI789\",\n            \"price_perday\": 0,\n            \"stock\": 5,\n            \"description\": \"Description of Product3\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 4,\n            \"name_produk\": \"Product4\",\n            \"image\": \"image4.jpg\",\n            \"license_plate\": \"JKL012\",\n            \"price_perday\": 0,\n            \"stock\": 12,\n            \"description\": \"Description of Product4\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 5,\n            \"name_produk\": \"Product5\",\n            \"image\": \"image5.jpg\",\n            \"license_plate\": \"MNO345\",\n            \"price_perday\": 0,\n            \"stock\": 6,\n            \"description\": \"Description of Product5\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 6,\n            \"name_produk\": \"Product6\",\n            \"image\": \"image6.jpg\",\n            \"license_plate\": \"PQR678\",\n            \"price_perday\": 0,\n            \"stock\": 7,\n            \"description\": \"Description of Product6\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 7,\n            \"name_produk\": \"Product7\",\n            \"image\": \"image7.jpg\",\n            \"license_plate\": \"STU901\",\n            \"price_perday\": 0,\n            \"stock\": 9,\n            \"description\": \"Description of Product7\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 8,\n            \"name_produk\": \"Product8\",\n            \"image\": \"image8.jpg\",\n            \"license_plate\": \"VWX234\",\n            \"price_perday\": 0,\n            \"stock\": 4,\n            \"description\": \"Description of Product8\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 9,\n            \"name_produk\": \"Product9\",\n            \"image\": \"image9.jpg\",\n            \"license_plate\": \"YZA567\",\n            \"price_perday\": 0,\n            \"stock\": 3,\n            \"description\": \"Description of Product9\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 10,\n            \"name_produk\": \"Product10\",\n            \"image\": \"image10.jpg\",\n            \"license_plate\": \"BCD890\",\n            \"price_perday\": 0,\n            \"stock\": 2,\n            \"description\": \"Description of Product10\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 11,\n            \"name_produk\": \"Product11\",\n            \"image\": \"image11.jpg\",\n            \"license_plate\": \"CDE123\",\n            \"price_perday\": 0,\n            \"stock\": 11,\n            \"description\": \"Description of Product11\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 12,\n            \"name_produk\": \"Product12\",\n            \"image\": \"image12.jpg\",\n            \"license_plate\": \"EFG456\",\n            \"price_perday\": 0,\n            \"stock\": 1,\n            \"description\": \"Description of Product12\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 13,\n            \"name_produk\": \"Product13\",\n            \"image\": \"image13.jpg\",\n            \"license_plate\": \"FGH789\",\n            \"price_perday\": 0,\n            \"stock\": 0,\n            \"description\": \"Description of Product13\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 14,\n            \"name_produk\": \"Product14\",\n            \"image\": \"image14.jpg\",\n            \"license_plate\": \"GHI012\",\n            \"price_perday\": 0,\n            \"stock\": 15,\n            \"description\": \"Description of Product14\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 15,\n            \"name_produk\": \"Product15\",\n            \"image\": \"image15.jpg\",\n            \"license_plate\": \"HIJ345\",\n            \"price_perday\": 0,\n            \"stock\": 14,\n            \"description\": \"Description of Product15\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 16,\n            \"name_produk\": \"Product16\",\n            \"image\": \"image16.jpg\",\n            \"license_plate\": \"IJK678\",\n            \"price_perday\": 0,\n            \"stock\": 13,\n            \"description\": \"Description of Product16\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 17,\n            \"name_produk\": \"Product17\",\n            \"image\": \"image17.jpg\",\n            \"license_plate\": \"JKL901\",\n            \"price_perday\": 0,\n            \"stock\": 16,\n            \"description\": \"Description of Product17\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 18,\n            \"name_produk\": \"Product18\",\n            \"image\": \"image18.jpg\",\n            \"license_plate\": \"KLM234\",\n            \"price_perday\": 0,\n            \"stock\": 17,\n            \"description\": \"Description of Product18\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 19,\n            \"name_produk\": \"Product19\",\n            \"image\": \"image19.jpg\",\n            \"license_plate\": \"LMN567\",\n            \"price_perday\": 0,\n            \"stock\": 18,\n            \"description\": \"Description of Product19\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        },\n        {\n            \"id\": 20,\n            \"name_produk\": \"Product20\",\n            \"image\": \"image20.jpg\",\n            \"license_plate\": \"MNO890\",\n            \"price_perday\": 0,\n            \"stock\": 19,\n            \"description\": \"Description of Product20\",\n            \"created_at\": \"2024-06-03T21:47:03.962818Z\",\n            \"updated_at\": \"2024-06-03T21:47:03.962818Z\"\n        }\n    ]\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "profile",
+					"item": [
+						{
+							"name": "Update Profile",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Penyewa}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"name\": \"John Doe\",\r\n  \"email\" : \"Buyer1@gmail.com\",\r\n  \"number\": \"12345678901\",\r\n  \"password\" : \"123123123123123123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/users/profile",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"users",
+										"profile"
+									]
+								},
+								"description": "berikut merupakan endpoint untuk melakukan update profile dari sisi pembeli."
+							},
+							"response": [
+								{
+									"name": "Update Profile",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"name\": \"John Doe\",\r\n  \"email\" : \"Buyer1@gmail.com\",\r\n  \"number\": \"12345678901\",\r\n  \"password\" : \"123123123123123123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{URL}}/users/profile",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"users",
+												"profile"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 02 Dec 2023 21:43:48 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "39"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"success\": \"successfully update user\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Delete Profile",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Penyewa}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\": 9\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/users/deleteprofile",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"users",
+										"deleteprofile"
+									]
+								},
+								"description": "berikut merupakan endpoint untuk menghapus profile pembeli."
+							},
+							"response": [
+								{
+									"name": "Delete Profile",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"id\": 9\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{URL}}/users/deleteprofile",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"users",
+												"deleteprofile"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 02 Dec 2023 21:54:29 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "40"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"message\": \"User deleted successfully\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Get Saldo",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Penyewa}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/users/balance",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"users",
+										"balance"
+									]
+								},
+								"description": "endpoint berikut ini digunakan untuk melihat saldi yang dimiliki oleh pembeli."
+							},
+							"response": [
+								{
+									"name": "Get Saldo",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{URL}}/users/balance",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"users",
+												"balance"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 02 Dec 2023 21:49:43 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "7"
+										}
+									],
+									"cookie": [],
+									"body": "100000"
+								}
+							]
+						},
+						{
+							"name": "Get Profile",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Penyewa}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/users/profile",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"users",
+										"profile"
+									]
+								},
+								"description": "endpoint berikut ini digunakan untuk melihat profile"
+							},
+							"response": [
+								{
+									"name": "Get Profile",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{URL}}/users/profile",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"users",
+												"profile"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 02 Dec 2023 21:36:00 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "191"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": 9,\n    \"name\": \"\",\n    \"email\": \"Buyer1@gmail.com\",\n    \"number\": \"00000000000\",\n    \"roles\": \"Buyer\",\n    \"saldo\": 0,\n    \"created_at\": \"2023-12-03T01:29:58.477828+07:00\",\n    \"updated_at\": \"2023-12-03T01:29:58.477828+07:00\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Logout",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Penyewa}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/user/logout",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"user",
+										"logout"
+									]
+								},
+								"description": "endpoint diatas digunakan untuk melakukan logout akun."
+							},
+							"response": [
+								{
+									"name": "Logout",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{URL}}/user/logout",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"user",
+												"logout"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=UTF-8"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 04 Dec 2023 20:08:02 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "38"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"success\": \"successfully logged out\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "lokasi",
+					"item": [
+						{
+							"name": "Create Location",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Penyewa}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"user_id\": 1,\r\n    \"address\": \"123 Main St\",\r\n    \"city\": \"Anytown\",\r\n    \"state\": \"Anystate\",\r\n    \"postal_code\": \"12345\",\r\n    \"country\": \"USA\",\r\n    \"latitude\": 40.712776,\r\n    \"longitude\": -74.005974\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/lokasi",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"lokasi"
+									]
+								},
+								"description": "berikut merupakan endpoint untuk melakukan update profile dari sisi pembeli."
+							},
+							"response": [
+								{
+									"name": "Create Location",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"user_id\": 1,\r\n    \"address\": \"123 Main St\",\r\n    \"city\": \"Anytown\",\r\n    \"state\": \"Anystate\",\r\n    \"postal_code\": \"12345\",\r\n    \"country\": \"USA\",\r\n    \"latitude\": 40.712776,\r\n    \"longitude\": -74.005974\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{URL}}/lokasi",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"lokasi"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 14:56:53 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "270"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": {\n        \"id\": 0,\n        \"user_id\": 1,\n        \"address\": \"123 Main St\",\n        \"city\": \"Anytown\",\n        \"state\": \"Anystate\",\n        \"postal_code\": \"12345\",\n        \"country\": \"USA\",\n        \"latitude\": 40.712776,\n        \"longitude\": -74.005974,\n        \"created_at\": \"2024-06-04T21:56:53.6298236+07:00\",\n        \"updated_at\": \"2024-06-04T21:56:53.6298236+07:00\"\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "Getall location",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Penyewa}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/lokasi",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"lokasi"
+									]
+								},
+								"description": "endpoint berikut ini digunakan untuk melihat saldi yang dimiliki oleh pembeli."
+							},
+							"response": [
+								{
+									"name": "Getall location",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{URL}}/lokasi",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"lokasi"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 14:55:39 GMT"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 13,\n            \"user_id\": 1,\n            \"address\": \"123 Main St\",\n            \"city\": \"Anytown\",\n            \"state\": \"Anystate\",\n            \"postal_code\": \"12345\",\n            \"country\": \"USA\",\n            \"latitude\": 40.712776,\n            \"longitude\": -74.005974,\n            \"created_at\": \"2024-06-04T15:42:42.378243+07:00\",\n            \"updated_at\": \"2024-06-04T15:42:42.378243+07:00\"\n        },\n        {\n            \"id\": 14,\n            \"user_id\": 2,\n            \"address\": \"456 Oak St\",\n            \"city\": \"Othertown\",\n            \"state\": \"Otherstate\",\n            \"postal_code\": \"67890\",\n            \"country\": \"USA\",\n            \"latitude\": 34.052235,\n            \"longitude\": -118.243683,\n            \"created_at\": \"2024-06-04T15:42:42.378243+07:00\",\n            \"updated_at\": \"2024-06-04T15:42:42.378243+07:00\"\n        },\n        {\n            \"id\": 15,\n            \"user_id\": 7,\n            \"address\": \"789 Pine St\",\n            \"city\": \"Sometown\",\n            \"state\": \"Somestate\",\n            \"postal_code\": \"11223\",\n            \"country\": \"USA\",\n            \"latitude\": 41.878113,\n            \"longitude\": -87.629799,\n            \"created_at\": \"2024-06-04T15:42:42.378243+07:00\",\n            \"updated_at\": \"2024-06-04T15:42:42.378243+07:00\"\n        },\n        {\n            \"id\": 16,\n            \"user_id\": 4,\n            \"address\": \"101 Maple St\",\n            \"city\": \"Anycity\",\n            \"state\": \"Anystate\",\n            \"postal_code\": \"44556\",\n            \"country\": \"USA\",\n            \"latitude\": 37.774929,\n            \"longitude\": -122.419418,\n            \"created_at\": \"2024-06-04T15:42:42.378243+07:00\",\n            \"updated_at\": \"2024-06-04T15:42:42.378243+07:00\"\n        },\n        {\n            \"id\": 25,\n            \"user_id\": 7,\n            \"address\": \"321 Birch St\",\n            \"city\": \"Newtown\",\n            \"state\": \"Newstate\",\n            \"postal_code\": \"54321\",\n            \"country\": \"USA\",\n            \"latitude\": 39.952583,\n            \"longitude\": -75.165222,\n            \"created_at\": \"2024-06-04T15:45:21.514099+07:00\",\n            \"updated_at\": \"2024-06-04T15:45:21.514099+07:00\"\n        },\n        {\n            \"id\": 26,\n            \"user_id\": 1,\n            \"address\": \"654 Cedar St\",\n            \"city\": \"Oldtown\",\n            \"state\": \"Oldstate\",\n            \"postal_code\": \"98765\",\n            \"country\": \"USA\",\n            \"latitude\": 36.778259,\n            \"longitude\": -119.417931,\n            \"created_at\": \"2024-06-04T15:45:21.514099+07:00\",\n            \"updated_at\": \"2024-06-04T15:45:21.514099+07:00\"\n        },\n        {\n            \"id\": 27,\n            \"user_id\": 4,\n            \"address\": \"987 Elm St\",\n            \"city\": \"Middletown\",\n            \"state\": \"Middlestate\",\n            \"postal_code\": \"32145\",\n            \"country\": \"USA\",\n            \"latitude\": 34.052235,\n            \"longitude\": -118.243683,\n            \"created_at\": \"2024-06-04T15:45:21.514099+07:00\",\n            \"updated_at\": \"2024-06-04T15:45:21.514099+07:00\"\n        },\n        {\n            \"id\": 28,\n            \"user_id\": 2,\n            \"address\": \"210 Spruce St\",\n            \"city\": \"Smalltown\",\n            \"state\": \"Smallstate\",\n            \"postal_code\": \"56789\",\n            \"country\": \"USA\",\n            \"latitude\": 40.73061,\n            \"longitude\": -73.935242,\n            \"created_at\": \"2024-06-04T15:45:21.514099+07:00\",\n            \"updated_at\": \"2024-06-04T15:45:21.514099+07:00\"\n        }\n    ]\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "transaksi",
+					"item": [
+						{
+							"name": "Get Transaksi Profile",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{Token-Penyewa}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{token}}"
+									}
+								],
+								"url": {
+									"raw": "{{URL}}/getransaksiprofile",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"getransaksiprofile"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get all Transaction",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{token}}"
+											}
+										],
+										"url": {
+											"raw": "{{URL}}/getalltransaksi",
+											"host": [
+												"{{URL}}"
+											],
+											"path": [
+												"getalltransaksi"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 04 Jun 2024 09:29:09 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "498"
+										}
+									],
+									"cookie": [],
+									"body": "[\n    {\n        \"ID\": 9,\n        \"user_id\": 4,\n        \"produk_id\": 27,\n        \"tipe_transaksi\": \"topup\",\n        \"jumlah\": 150,\n        \"created_at\": \"2024-06-04T15:49:22.096905+07:00\"\n    },\n    {\n        \"ID\": 10,\n        \"user_id\": 1,\n        \"produk_id\": 28,\n        \"tipe_transaksi\": \"pembelian\",\n        \"jumlah\": 35,\n        \"created_at\": \"2024-06-04T15:49:22.096905+07:00\"\n    },\n    {\n        \"ID\": 11,\n        \"user_id\": 2,\n        \"produk_id\": 29,\n        \"tipe_transaksi\": \"pencairan\",\n        \"jumlah\": 40,\n        \"created_at\": \"2024-06-04T15:49:22.096905+07:00\"\n    },\n    {\n        \"ID\": 12,\n        \"user_id\": 7,\n        \"produk_id\": 27,\n        \"tipe_transaksi\": \"topup\",\n        \"jumlah\": 45,\n        \"created_at\": \"2024-06-04T15:49:22.096905+07:00\"\n    }\n]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Login Penyewa",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"penyewa@example.com\",\n    \"password\": \"password\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/login",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Login Sewa",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"email\": \"penyewa@example.com\",\n    \"password\": \"password\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/login",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 04 Jun 2024 09:51:04 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "211"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"access_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwibmFtZSI6IiIsImVtYWlsIjoicGVueWV3YUBleGFtcGxlLmNvbSIsInJvbGUiOiJQZW55ZXdhIiwiZXhwIjoxNzE3NDk1MjY0fQ.xNHgDaD_zNErUC4mzRSB2xm5G6FB7gZ2gAy5y7RcIWA\"\n}"
+						}
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "URL",
+			"value": " http://localhost:8080/api/v1"
+		},
+		{
+			"key": "Token-Admin",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6IiIsImVtYWlsIjoiYWRtaW5AZXhhbXBsZS5jb20iLCJyb2xlIjoiQWRtaW4iLCJvd25lcl9pZCI6IiIsImV4cCI6MTcxNzU1MzgyNn0.P7wTUf6PPjshEw8nd_NkpqW7L98-KnYvP_sUDicSW9U"
+		},
+		{
+			"key": "Token-Sewa",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwibmFtZSI6IiIsImVtYWlsIjoiUGVueWV3YUBleGFtcGxlLmNvbSIsInJvbGUiOiJQZW55ZXdhIiwiZXhwIjoxNzE3NDg2Nzc2fQ.f12e6m_snhMmj6SlHy8xriyoOlvPOAm5iUyHyAVl6P8",
+			"type": "string"
+		},
+		{
+			"key": "Token-Penyewa",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywibmFtZSI6IiIsImVtYWlsIjoiQnV5ZXIxQGdtYWlsLmNvbSIsInJvbGUiOiJCdXllciIsImV4cCI6MTcwMTU0MjA2OH0.6vamjQugLq5kOXi12XJNxpLp3QD2fwKMRLmRS9W5rcE",
+			"type": "string"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+  db:
+    image: postgres
+    restart: always
+    container_name: db_rental
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_DB: rental
+      PGDATA: /var/lib/postgresql/data/PGDATA
+    volumes:
+      - ./data:/var/lib/postgresql/data
+      - ./initdb:/docker-entrypoint-initdb.d
+    ports:
+      - 5432:5432
+  server:
+    build:
+      context: .
+      dockerfile: ./cmd/server/Dockerfiles
+    container_name: backEnd_rental
+    ports:
+      - 8080:8080
+    depends_on:
+      - db
